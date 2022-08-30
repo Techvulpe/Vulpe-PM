@@ -1,0 +1,14 @@
+#!/bin/python3
+print("Vulpe Package Manager")
+print("Copyright TechVulpe 2022")
+import sys
+import os
+if sys.argv[1] == "install":
+        print("Trying to run command make -f " + sys.argv[2])
+        os.system('make -f /var/lib/vulpe-pm/stable/' + sys.argv[2] + '  install')
+if sys.argv[1] == "install-test":
+        print("Trying to run command make -f " + sys.argv[2])
+        os.system('make -f /var/lib/vulpe-pm/testing/' + sys.argv[2] + '  install')
+if sys.argv[1] == "update":
+        os.system('rm -r /var/lib/vulpe-pm')
+        os.system('git clone https://github.com/Techvulpe/Vulpe-PM-main /var/lib/vulpe-pm')
