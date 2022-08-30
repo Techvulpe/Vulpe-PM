@@ -1,5 +1,5 @@
 # Vulpe-PM
-The Package manager executable
+The executable of the Vulpe package manager
 
 # Dependencies
 
