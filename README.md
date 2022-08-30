@@ -43,6 +43,8 @@ to download a unstable/testing package
 
 # Contributing
 
+The sources repo: https://github.com/Techvulpe/Vulpe-PM-main
+
 Make a PR in the sources repo to submit your packages.
 
 Take a look at stable/chrome in the sources repo to see how these makefiles should look
