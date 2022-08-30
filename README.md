@@ -31,13 +31,13 @@ to update your sources
 
 run
 
-'sudo vulpe install <package>'
+'sudo vulpe install |package|'
 
 to download a stable package
 
 run
 
-'sudo vulpe install-test <package>'
+'sudo vulpe install-test |package|'
 
 to download a unstable/testing package
 
