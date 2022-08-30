@@ -15,7 +15,9 @@ Package specific dependencies will be listed before the installation of the spec
 
 Download the repository
 
-'mv vulpe /bin/bash'
+'alias vulpe=|path-to-vulpe|'
+
+'alias sudo='sudo '
 
 'mkdir /var/lib/vulpe-pm'
 
